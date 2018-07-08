@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <id>QPager</id>
+    <version>1.0.3</version>
+    <authors>Uthman Rahimi</authors>
+    <owners>Uthman Rahimi</owners>
+    <PackageProjectUrl>https://github.com/osmanrahimi/QPager</PackageProjectUrl>
+    <PackageIconUrl>http://www.hozhan.ir/statics/File/qpager-a9963a.png</PackageIconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple,Light and fast Pager for ASP.NET Core</description>
+    <releaseNotes> a simple and Pager Based on ASP.NET Core v2</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+      <PackageTags>Pager QPager Pager.net </PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
